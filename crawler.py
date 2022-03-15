@@ -6,7 +6,7 @@ import argparse
 import urllib.request
 from selenium import webdriver
 
-category_num = 5  # 欲爬取每個種類的圖像張數
+category_num = 500  # 欲爬取每個種類的圖像張數
 
 parser = argparse.ArgumentParser(
     description="Do you wish to scan for live hosts or conduct a port scan?")
